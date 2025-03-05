@@ -1,4 +1,3 @@
-```markdown
 <h1 align="center">Conversational Chatbot with Any Files</h1>
 <p align="center">A vibrant and interactive chatbot that processes PDF, Word, and Excel documents and answers user queries using a locally hosted language model (Ollama) via LangChain and Flask, with optional MongoDB logging.</p>
 ---
