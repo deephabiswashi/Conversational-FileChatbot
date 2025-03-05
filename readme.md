@@ -1,14 +1,15 @@
-<h1 align="center">Conversational Chatbot with Any Files</h1>
-<p align="center">An AI-powered chatbot that processes PDF, Word, and Excel documents and provides intelligent responses using a locally hosted LLM (Ollama) via LangChain and Flask, with optional MongoDB logging.</p>
+# Conversational Chatbot with Any Files
+
+A powerful AI-driven chatbot that enables users to upload and query PDF, Word, and Excel documents. Built with Flask, LangChain, and Ollama, it provides intelligent responses based on document content. Optional MongoDB integration allows conversation logging for reference. The user-friendly interface includes theme toggling and model selection.
 
 ---
 
-## <div align="center">Overview</div>
+## Overview
 This project allows users to upload various document formats (PDF, Word, Excel) and query their content through an interactive chatbot. The chatbot is powered by a local LLM using Ollama, while Flask manages the backend for file processing and chat routing. MongoDB is optionally used for storing conversation logs. The modern UI offers features like a theme toggle and model selection.
 
 ---
 
-## <div align="center">Features</div>
+## Features
 - **Document Processing:** Upload and extract text from PDF, Word, and Excel files.
 - **Conversational AI:** Ask questions related to uploaded documents and receive context-aware responses.
 - **Model Selection:** Choose different LLM models (e.g., "llama3.1:8b").
@@ -18,7 +19,7 @@ This project allows users to upload various document formats (PDF, Word, Excel) 
 
 ---
 
-## <div align="center">Project Structure</div>
+## Project Structure
 ```
 chatbot_project/
 ├── app.py                   # Main Flask application with routes (/ , /upload, /chat)
@@ -41,7 +42,7 @@ chatbot_project/
 
 ---
 
-## <div align="center">Installation & Setup</div>
+## Installation & Setup
 
 1. **Clone the Repository:**  
    ```bash
@@ -84,7 +85,7 @@ chatbot_project/
 
 ---
 
-## <div align="center">Usage</div>
+## Usage
 
 1. **Upload a Document:**  
    Use the file upload section to select a PDF, Word, or Excel file. The server extracts text for processing.
@@ -97,7 +98,7 @@ chatbot_project/
 
 ---
 
-## <div align="center">Contributing</div>
+## Contributing
 
 Contributions are welcome! To contribute:
 1. Fork this repository.
@@ -107,8 +108,9 @@ Contributions are welcome! To contribute:
 
 ---
 
-## <div align="center">License</div>
+## License
 
 This project is licensed under the **MIT License**. See the LICENSE file for details.
 
-<p align="center">Made with ❤️ by Deep</p>
+Made with ❤️ by Deep
+
