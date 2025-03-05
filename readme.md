@@ -46,7 +46,7 @@ chatbot_project/
 
 1. **Clone the Repository:**  
    ```bash
-   git clone https://github.com/your_username/Conversational-FileChatbot.git
+   git clone https://github.com/deephabiswashi/Conversational-FileChatbot.git
    cd Conversational-FileChatbot
    ```
 
