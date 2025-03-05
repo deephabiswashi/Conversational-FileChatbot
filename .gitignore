@@ -1,0 +1,29 @@
+# Virtual environment
+env3/
+venv/
+*.pyc
+*.pyo
+__pycache__/
+
+# Ignore uploaded files
+uploads/*
+
+# Ignore log and database files
+*.log
+*.sqlite3
+*.db
+
+# Ignore system files
+.DS_Store
+Thumbs.db
+
+# Ignore IDE/editor files
+.vscode/
+.idea/
+*.swp
+
+# Node.js dependencies (if applicable)
+node_modules/
+
+# Ignore compiled Python files
+*.cpython-311.pyc
