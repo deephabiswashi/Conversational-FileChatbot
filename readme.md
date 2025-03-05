@@ -98,6 +98,29 @@ chatbot_project/
 
 ---
 
+## Screenshots
+
+### Homepage
+![Homepage](screenshots/homepage.png)
+
+### Chatbot Processing Query
+![Result 1](screenshots/results1.png)
+
+### Chatbot Response
+![Result 2](screenshots/results2.png)
+
+---
+
+## Demo Video
+
+Watch the demonstration of the chatbot in action:
+
+[![Chatbot Demo](https://img.youtube.com/vi/gZKV2R5Qfzs/0.jpg)](https://youtu.be/gZKV2R5Qfzs)
+
+Click on the thumbnail above or [watch it on YouTube](https://youtu.be/gZKV2R5Qfzs).
+
+---
+
 ## Contributing
 
 Contributions are welcome! To contribute:
