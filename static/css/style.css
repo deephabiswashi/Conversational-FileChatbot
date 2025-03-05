@@ -1,0 +1,106 @@
+/* Use Roboto for a modern look */
+body {
+  font-family: 'Roboto', sans-serif;
+  margin: 0;
+  padding: 0;
+  background: linear-gradient(135deg, #ff9a9e, #fad0c4);
+  color: #333;
+  transition: background 0.3s, color 0.3s;
+}
+
+.container {
+  max-width: 800px;
+  margin: auto;
+  padding: 20px;
+}
+
+/* Center headings and modernize header styling */
+header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+header h1 {
+  margin: 0;
+  font-size: 2.5em;
+  text-align: center;
+}
+
+header button {
+  margin-top: 10px;
+  padding: 8px 16px;
+  background-color: #ff6f61;
+  border: none;
+  border-radius: 4px;
+  color: #fff;
+  cursor: pointer;
+  font-size: 1em;
+}
+
+/* Styling for upload and chat sections */
+.upload-section, .chat-section {
+  background: rgba(255, 255, 255, 0.85);
+  padding: 15px;
+  margin-top: 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.upload-section h2, .chat-section h2 {
+  text-align: center;
+  font-size: 1.8em;
+}
+
+/* Chat window styling */
+#chat-window {
+  height: 300px;
+  overflow-y: auto;
+  background: #f0f0f0;
+  padding: 10px;
+  border-radius: 5px;
+  margin-bottom: 10px;
+}
+
+/* Message styles */
+.message {
+  padding: 8px;
+  margin-bottom: 5px;
+  border-radius: 5px;
+}
+
+.message.user {
+  background: #d1e7dd;
+  text-align: right;
+}
+
+.message.bot {
+  background: #f8d7da;
+  text-align: left;
+}
+
+/* Dark theme styles */
+body.dark {
+  background: #333;
+  color: #eee;
+}
+
+body.dark .upload-section, 
+body.dark .chat-section {
+  background: rgba(50, 50, 50, 0.9);
+}
+
+body.dark #chat-window {
+  background: #555;
+}
+
+/* Modern vibrant accents */
+a, button {
+  transition: background-color 0.3s, color 0.3s;
+}
+
+a:hover, button:hover {
+  opacity: 0.9;
+}

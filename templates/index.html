@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Conversational Chatbot</title>
+  <!-- Google Font for a modern look -->
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+</head>
+<body>
+  <div class="container">
+    <header>
+      <h1>Conversational Chatbot with Any Files</h1>
+      <button id="theme-toggle">Toggle Theme</button>
+    </header>
+    
+    <section class="upload-section">
+      <h2>Upload Document</h2>
+      <form id="upload-form" enctype="multipart/form-data">
+        <div class="file-type">
+          <label><input type="radio" name="filetype" value="pdf" checked> PDF</label>
+          <label><input type="radio" name="filetype" value="word"> Word</label>
+          <label><input type="radio" name="filetype" value="excel"> Excel</label>
+        </div>
+        <input type="file" id="file-input" name="file" required>
+        <button type="submit">Upload</button>
+      </form>
+      <div id="upload-status"></div>
+    </section>
+
+    <section class="chat-section">
+      <h2>Chat with your Document</h2>
+      <div class="controls">
+        <select id="model-select">
+          <option value="llama3.1:8b">llama3.1:8b</option>
+          <!-- Add more options if you have other models -->
+        </select>
+      </div>
+      <div id="chat-window">
+        <!-- Chat messages will appear here -->
+      </div>
+      <form id="chat-form">
+        <input type="text" id="chat-input" placeholder="Ask a question..." autocomplete="off" required>
+        <button type="submit">Send</button>
+      </form>
+    </section>
+  </div>
+  <script src="{{ url_for('static', filename='js/script.js') }}"></script>
+</body>
+</html>
